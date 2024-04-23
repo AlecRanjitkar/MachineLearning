@@ -30,17 +30,17 @@ def calculate_rule_confidence(table, rule_antecedent, rule_consequent):
 
 # Define the transactions data based on the binary matrix given earlier
 table_4_data = [
-    [0, 1, 1, 0, 1, 0],  # o1
-    [0, 0, 1, 0, 0, 0],  # o2
-    [1, 0, 0, 0, 1, 0],  # o3
-    [1, 0, 0, 1, 1, 0],  # o4
-    [1, 0, 0, 1, 0, 0],  # o5
-    [1, 1, 0, 1, 1, 0],  # o6
-    [1, 0, 1, 1, 0, 1],  # o7
-    [1, 0, 1, 1, 1, 1],  # o8
-    [0, 1, 1, 1, 1, 1],  # o9
-    [1, 0, 1, 0, 0, 1],  # o10
-    [0, 1, 1, 0, 0, 1]   # o11
+    [0, 1, 1, 0, 1],  # o1
+    [0, 0, 1, 0, 0],  # o2
+    [1, 0, 0, 0, 1],  # o3
+    [1, 0, 0, 1, 1],  # o4
+    [1, 0, 0, 1, 0],  # o5
+    [1, 1, 0, 1, 1],  # o6
+    [1, 0, 1, 1, 0],  # o7
+    [1, 0, 1, 1, 1],  # o8
+    [0, 1, 1, 1, 1],  # o9
+    [1, 0, 1, 0, 0],  # o10
+    [0, 1, 1, 0, 0]   # o11
 ]
 # Rules to calculate confidence for
 rules = [
