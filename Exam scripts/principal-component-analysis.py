@@ -3,13 +3,12 @@ import numpy as np
 #From Examset spring 2016 Question 2:
 
 # Singular values from the S matrix
-singular_values = np.array([14.4, 8.19, 7.83, 6.91, 6.01])
+singular_values = np.array([149, 118, 53, 42, 3])
 
 # Calculate the variance explained by each principal component
 variance_explained = (singular_values ** 2) / np.sum(singular_values ** 2)
 variance_explained_cumsum = np.cumsum(variance_explained) * 100  # cumulative variance explained in percentage
 
-# Extracting individual variance explained for decision
 first_component_variance = variance_explained_cumsum[0]
 first_two_components_variance = variance_explained_cumsum[1]
 last_two_components_variance = variance_explained_cumsum[-1] - variance_explained_cumsum[-3]
