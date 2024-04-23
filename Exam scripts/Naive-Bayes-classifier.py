@@ -1,5 +1,5 @@
 from fractions import Fraction
-
+#Examset 16 spring, task 10
 def calculate_naive_bayes(table, f1, f2, f3):
     # Count the number of instances for each class y=0 and y=1
     count_y0 = sum(1 for row in table if row[-1] == 0)
