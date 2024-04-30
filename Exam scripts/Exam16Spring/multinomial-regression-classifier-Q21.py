@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 # Exam set 16 question 21
 
 # Define the softmax function

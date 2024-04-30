@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 #From Examset spring 2016 Question 2:
 

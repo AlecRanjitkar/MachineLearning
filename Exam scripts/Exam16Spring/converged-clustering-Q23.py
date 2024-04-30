@@ -1,5 +1,5 @@
-from sklearn.cluster import KMeans
-import numpy as np
+from sklearn.cluster import KMeans # type: ignore
+import numpy as np # type: ignore
 #Exam 16 spring question 23, however checkout Exam 18 spring question 25 which uses Init
 
 

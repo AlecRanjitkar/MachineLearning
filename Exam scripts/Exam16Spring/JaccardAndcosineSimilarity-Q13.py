@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 #Examset 16 spring, task 13
 def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
