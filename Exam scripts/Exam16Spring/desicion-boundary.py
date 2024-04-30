@@ -7,6 +7,12 @@ import matplotlib.pyplot as plt
 y_true = [1, 1, 0, 1, 0, 0]  # Actual classes of the points 
 
 # Simulated probability scores of being positive
+# TODO estimate the probability score based on how far there are from the desicion bouandary.
+# Class 1 is postive and Class 0 is negativ. True and False is wheter they are correctly classified. 
+#if it is a true positive then it has a high propbability, 
+#if it is a true negativ it has a low probablity, 
+#if it a false possitive than it has lower probality than the threshold, 
+#if it is a false negativ it has a higher probability than the threshold.
 y_scores = [0.9,0.85, 0.6, 0.4, 0.1, 0.1]  # Assuming decision boundary at around 0.5
 
 # Compute ROC curve
