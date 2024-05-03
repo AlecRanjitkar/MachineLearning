@@ -1,6 +1,6 @@
-import numpy as np
-from sklearn.metrics import roc_curve, auc
-import matplotlib.pyplot as plt
+import numpy as np # type: ignore
+from sklearn.metrics import roc_curve, auc # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
 # Class labels (actual outcomes): 0s are negative, 1s are positive 
 # TODO update based on the figure look from bottum left to top right, if you dont understand look at the question for this examset.
