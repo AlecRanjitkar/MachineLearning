@@ -1,5 +1,5 @@
 
-import numpy as np
+import numpy as np # type: ignore
 
 # Parameters
 sigma = 0.5

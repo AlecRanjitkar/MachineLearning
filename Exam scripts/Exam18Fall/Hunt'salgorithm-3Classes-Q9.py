@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 def calculate_classification_error(class_counts):
     # Calculate the classification error for a node

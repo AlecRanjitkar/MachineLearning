@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Initial weights
 N = 6  # Number of observations

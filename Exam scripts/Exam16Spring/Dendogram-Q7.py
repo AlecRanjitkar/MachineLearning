@@ -1,7 +1,7 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.cluster.hierarchy import dendrogram, linkage
-from scipy.spatial.distance import squareform
+import numpy as np # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+from scipy.cluster.hierarchy import dendrogram, linkage # type: ignore
+from scipy.spatial.distance import squareform # type: ignore
 
 correct_distance_matrix = np.array([
     [0.00, 4.84, 0.50, 4.11, 1.07, 4.10, 4.71, 4.70, 4.93],

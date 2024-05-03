@@ -1,5 +1,5 @@
-from sklearn.metrics.cluster import normalized_mutual_info_score
-import numpy as np
+from sklearn.metrics.cluster import normalized_mutual_info_score # type: ignore
+import numpy as np # type: ignore
 
 # Example cluster assignments based on the dendrogram cutoff
 your_clusters = [0, 2, 0, 1, 0, 1, 0, 0, 0, 0]  # Each index corresponds to O1 through O10, respectively

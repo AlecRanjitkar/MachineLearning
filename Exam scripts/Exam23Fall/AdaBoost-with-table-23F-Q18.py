@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 def update_adaboost_weights(y_true, y_pred, N):
     # Initialize weights equally

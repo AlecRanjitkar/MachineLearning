@@ -1,4 +1,4 @@
-import numpy as np  
+import numpy as np   # type: ignore
   
   
 def cosine_similarity(norm_o1, norm_o2, euclidean_distance):  
