@@ -35,7 +35,7 @@ statement_c = j_o1_o3 > smc_o1_o2
 statement_d = j_o1_o3 > cos_o1_o3
 
 print("\nValidity of the statements:")
-print("Statement A (COS(o1,o2) > SMC(o1,o2)): ", statement_a)
-print("Statement B (COS(o1,o2) > COS(o1,o3)): ", statement_b)
-print("Statement C (J(o1,o3) > SMC(o1,o2)): ", statement_c)
-print("Statement D (J(o1,o3) > COS(o1,o3)): ", statement_d)
+print("Statement A", statement_a)
+print("Statement B", statement_b)
+print("Statement C", statement_c)
+print("Statement D", statement_d)
