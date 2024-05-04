@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Probabilities of pollution levels
 #Number of observations
