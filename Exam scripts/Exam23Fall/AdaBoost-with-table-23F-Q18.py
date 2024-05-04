@@ -25,10 +25,12 @@ def update_adaboost_weights(y_true, y_pred, N):
     return weights
 
 # True class labels and predicted outputs
+#TODO: Update based on the given table
 y_true = np.array([2, 2, 1, 2, 1, 1])
 y_pred = np.array([2, 2, 2, 1, 2, 2])
 
 # Number of observations
+#TODO: Update based on N
 N = 6
 
 # Update weights using AdaBoost
