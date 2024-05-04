@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Data from Table 7 #TODO: Update based on the given dataset
 x7 = np.array([-1.76, -0.0, 0.06, 0.08, 0.65, 1.3])

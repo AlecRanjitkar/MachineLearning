@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 
 table3 = np.array([
@@ -14,11 +14,13 @@ table3 = np.array([
     [4.9, 4.6, 5.3, 2.4, 3.2, 2.3, 3.6, 2.1, 4.4, 0.0]
 ])
 
+#TODO: Based on table
 xT = [-1.76, -0, 0.06, 0.08, 0.65, 1.3]
 table7_y = np.array([12, 6, 8, 10, 4, 2])
 
 
 # K-nearest neighbors for observation 1 (zero-indexed, so observation 1 is at index 0)
+#TODO: Update based on what K is
 K = 3
 
 # For observation 1, find the K nearest neighbors (excluding itself)
