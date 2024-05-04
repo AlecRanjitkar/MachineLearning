@@ -25,3 +25,16 @@ split1 = [(108, 112, 56), (58, 75, 116)]
 purity_gain = calculate_purity_gain(I0, split1, n)
 
 print("Purity gain for the split based on x9:", purity_gain)
+
+
+
+#TODO: This is how it was done for question 4 in exam 2016 fall
+# # Total number of observations
+# n = 70+70+70
+
+# # Initial impurity (classification error) for the root node
+# initial_counts = [70,70,70]  # Total counts for each class
+# I0 = calculate_classification_error(initial_counts)
+
+# # Define the splits as lists of class counts for each split
+# split1 = [(24, 70, 0), (46, 0, 70)]
