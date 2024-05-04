@@ -14,6 +14,9 @@ correct_distance_matrix = np.array([
     [4.70, 3.59, 4.48, 3.68, 4.62, 2.23, 2.03, 0.00, 0.73],
     [4.93, 3.02, 4.64, 4.15, 4.71, 1.95, 2.73, 0.73, 0.00]
 ])
+correct_distance_matrix = (correct_distance_matrix + correct_distance_matrix.T) / 2
+# Set diagonal to zero
+np.fill_diagonal(correct_distance_matrix, 0)
 
 # Convert the distance matrix to a condensed form
 condensed_matrix = squareform(correct_distance_matrix)
