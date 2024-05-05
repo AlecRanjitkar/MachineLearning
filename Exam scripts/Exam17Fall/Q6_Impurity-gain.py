@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 def calculate_gini(class_counts):
     """Calculate the Gini impurity for a given node based on class counts."""
