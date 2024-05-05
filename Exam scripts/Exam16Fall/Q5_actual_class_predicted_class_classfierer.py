@@ -23,8 +23,9 @@ def compute_metrics(confusion_matrix):
 
 # Example of a 3x3 confusion matrix
 confusion_matrix_3x3 = np.array([
-    [18, 12],  # Predictions for Class 1
-    [9, 15],  # Predictions for Class 2
+    [31, 1, 3],  # Predictions for Class 1
+    [5, 30, 0],  # Predictions for Class 2
+    [6, 0, 29]   # Predictions for Class 3
 ])
 
 # Calculate metrics
