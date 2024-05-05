@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 def adaboost_weight_update(N, misclassified_count, initial_weight):
     # Calculate the error rate (epsilon)
