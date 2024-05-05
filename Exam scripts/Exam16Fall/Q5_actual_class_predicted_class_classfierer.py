@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 def compute_metrics(confusion_matrix):
     # Calculate the number of correct predictions (sum of diagonal elements)

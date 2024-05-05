@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Given singular values
 sigma_1 = 11.1
