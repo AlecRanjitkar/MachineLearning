@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt # type: ignore
 
 #TODO if table use this 
 # Heights for each player based on your provided data
-table = np.array([13, 2, 2, 2, 10, 3])
+table = np.array([5.7, 6.0, 6.2, 6.3, 6.4, 6.6, 6.7, 6.9, 7.0, 7.4])
 #TODO: Label is used if you have to fliter it in classes forexample red or black
 labels = np.array([0, 0, 0, 0, 1, 1, 1, 0, 0, 1])  # Correct labels as you described
 

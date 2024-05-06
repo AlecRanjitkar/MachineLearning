@@ -1,6 +1,6 @@
-import numpy as np
-from sklearn.metrics import roc_curve, auc
-import matplotlib.pyplot as plt
+import numpy as np # type: ignore
+from sklearn.metrics import roc_curve, auc # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
 # Defining the features based on your description
 features = np.array([
