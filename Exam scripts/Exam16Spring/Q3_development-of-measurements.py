@@ -1,6 +1,6 @@
 #Exam 16 spring question 3
 
-import numpy as np  
+import numpy as np   # type: ignore
   
 # V matrix from the second image  
 V = np.array([  
