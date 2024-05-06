@@ -19,8 +19,8 @@ y = np.array([1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0])
 # Data for gears and mpg classification
 #TODO: if table similar to exam17S Q11
 
-# gears = np.array([3]*15 + [4]*12 + [5]*5)
-# mpg = np.array([0]*13 + [1]*2 + [0]*2 + [1]*10 + [0]*2 + [1]*3)
+gears = np.array([3]*15 + [4]*12 + [5]*5)
+mpg = np.array([0]*13 + [1]*2 + [0]*2 + [1]*10 + [0]*2 + [1]*3)
 
 # # Simple numerical encoding for gears (although one-hot encoding might be more appropriate in other contexts)
 # numerical_gears = np.array([1 if gear == 4 else (2 if gear == 5 else 0) for gear in gears])
