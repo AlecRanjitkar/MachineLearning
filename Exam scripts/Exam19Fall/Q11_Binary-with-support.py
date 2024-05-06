@@ -1,5 +1,5 @@
-from mlxtend.frequent_patterns import apriori
-import pandas as pd
+from mlxtend.frequent_patterns import apriori # type: ignore
+import pandas as pd # type: ignore
 
 # Define the binary table
 data = {
