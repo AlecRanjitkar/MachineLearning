@@ -1,3 +1,4 @@
+from fractions import Fraction
 import numpy as np # type: ignore
 
 # Given data points
@@ -18,3 +19,7 @@ X_pinv = np.linalg.pinv(X_transformed)
 w_star = X_pinv @ y
 
 print("Computed weights w*:", w_star)
+
+# Convert each element in w_star to a fraction
+fractional_weights = [Fraction(weight).limit_denominator() for weight in w_star]
+print("Fractional weights w*:", fractional_weights)

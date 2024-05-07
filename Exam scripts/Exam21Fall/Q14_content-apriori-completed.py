@@ -27,4 +27,4 @@ for combination in feature_combinations:
 
 # Filter itemsets with support greater than or equal to 0.3
 L3 = {combination: support for combination, support in supports.items() if support >= 0.3}
-print(L3) # REMEMBER THESE ARE 0-INDEXED MEANING YOU HAVE TO ADD ONE
+print("REMEMBER THESE ARE 0-INDEXED MEANING YOU HAVE TO ADD ONE ON TO THE GIVEN VALUE",L3) # REMEMBER THESE ARE 0-INDEXED MEANING YOU HAVE TO ADD ONE
