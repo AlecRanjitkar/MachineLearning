@@ -1,3 +1,4 @@
+from fractions import Fraction
 import numpy as np # type: ignore
 
 # Data from the table, with class labels assigned based on the provided information
@@ -45,3 +46,8 @@ weighted_gini = prop_f2_0 * gini_f2_0 + prop_f2_1 * gini_f2_1
 gini_gain = root_impurity - weighted_gini
 
 print(root_impurity, gini_f2_0, gini_f2_1, weighted_gini, gini_gain)
+fraction = Fraction(gini_gain).limit_denominator()
+
+# Print the probability and the fraction
+print("Probability:", gini_gain)
+print("Fraction:", fraction)
