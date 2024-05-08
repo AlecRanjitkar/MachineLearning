@@ -33,6 +33,8 @@ def calculate_confidence(data, antecedent, consequent):
 
 # Define the antecedent and consequent feature indices
 # Note: corrected indices as per your previous comment to include f2 in antecedent (if intended)
+
+#TODO: do not follow start from 0, we always start from 1
 antecedent = [1, 3, 8, 9, 2]  # Assuming f2 was intentionally added
 consequent = [2, 6, 7]
 
