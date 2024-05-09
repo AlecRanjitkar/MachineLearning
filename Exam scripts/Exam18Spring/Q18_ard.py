@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 correct_distance_matrix = np.array([
     [0, 8.55, 0.43, 1.25, 1.14, 3.73, 2.72, 1.63, 1.68, 1.28],

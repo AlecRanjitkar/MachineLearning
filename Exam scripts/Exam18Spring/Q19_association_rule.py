@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Binarized data matrix
 binarized_data = np.array([

@@ -1,6 +1,6 @@
 def calculate_rand_index():
     # Define the cluster indices and true class labels
-    cluster_indices = [1, 2, 1, 1, 1, 3, 1, 1, 1, 1]
+    cluster_indices = [1, 3, 1, 1, 1, 2, 1, 1, 1, 1]
     true_labels = [1, 2, 1, 1, 1, 2, 2, 2, 2, 1]
 
     # Initialize counts

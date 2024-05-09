@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Weights of each observation in each round
 weights = np.array([
