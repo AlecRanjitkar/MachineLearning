@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Provided data matrix X
 X = np.array([
