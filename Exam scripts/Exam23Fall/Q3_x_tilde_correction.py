@@ -9,7 +9,7 @@ X = np.array([
     [-0.2,  0.8, -1.2,  0.7]
 ])
 
-# Provided observation x4
+# Provided observation x4 #TODO check which x they ask for 
 x4 = np.array([1.4, 1.0, 0.1, -2.8])
 
 # Calculate the mean of the original data X
@@ -25,7 +25,14 @@ V = np.array([
     [ 0.33,  0.88,  0.34, -0.01],
     [-0.82,  0.14,  0.42, -0.36]
 ])
-V_2 = V[:, :2]
+#TODO: update based on the amount of componenets atm it is
+V_2 = V[:, -2:]
+
+#TODO: this if u want the last 2 componenets 
+V_last_2 = V[:, -2:] 
+#TODO: for componenet 2 and 3
+V_2_and_3 = V[:, 1:3]
+
 
 # Project the centered x4 onto the space spanned by the first two principal components
 z = V_2.T.dot(tilde_x4)
