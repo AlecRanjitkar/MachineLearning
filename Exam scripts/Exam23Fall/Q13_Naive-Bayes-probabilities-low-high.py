@@ -1,5 +1,5 @@
-import numpy as np
-from scipy.stats import norm
+import numpy as np # type: ignore
+from scipy.stats import norm # type: ignore
 
 # Given data
 mu1 = np.array([0.77, -0.41])
