@@ -26,7 +26,7 @@ V = np.array([
     [-0.82,  0.14,  0.42, -0.36]
 ])
 #TODO: update based on the amount of componenets atm it is
-V_2 = V[:, -2:]
+V_2 = V[:, :2]
 
 #TODO: this if u want the last 2 componenets 
 V_last_2 = V[:, -2:] 
