@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Table 5: Poverty dataset
 table5 = np.array([

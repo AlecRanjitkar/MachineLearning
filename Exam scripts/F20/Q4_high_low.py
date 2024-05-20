@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 def project_onto_component(V, x, component_index):
     """

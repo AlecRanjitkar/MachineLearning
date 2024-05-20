@@ -1,6 +1,6 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.neighbors import KNeighborsRegressor
+import numpy as np # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+from sklearn.neighbors import KNeighborsRegressor # type: ignore
 
 # Data points
 #TODO: Update observations for X koordinate and Y koordinate based on the task 

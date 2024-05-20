@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 V = np.array([
     [0.38, -0.51, 0.23, 0.47, -0.55, 0.11],

@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # type: ignore
 
 # Binarized dataset (Table 8)
 data = np.array([

@@ -1,5 +1,5 @@
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
 # Initial positions of observations and centroids
 observations = np.array([0, 2, 4, 5, 6, 7, 14])
